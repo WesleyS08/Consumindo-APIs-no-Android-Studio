@@ -20,7 +20,6 @@ Para obter uma chave de API válida, siga estas etapas:
 Para fazer solicitações à API de Informações de Filmes, siga o exemplo abaixo:
 
 ```http
-Copy code
 GET /api/movie?id=123456&key=YOUR_API_KEY HTTP/1.1
 Host: example.com
 ```
@@ -31,7 +30,6 @@ Substitua 123456 pelo ID do filme desejado e YOUR_API_KEY pela chave de API que 
 
 A API retornará os dados do filme solicitado no formato JSON. Aqui está um exemplo de resposta:
 ```json
-Copy code
 {
   "title": "Inception",
   "year": "2010",
@@ -51,7 +49,7 @@ Para garantir a disponibilidade e o desempenho da API para todos os usuários, i
 Aqui está um exemplo de como você pode usar a API em seu aplicativo:
 
 ```java
-Copy code
+
 // Exemplo de código Java para fazer uma solicitação à API de Informações de Filmes
 String apiKey = "YOUR_API_KEY";
 String movieId = "123456";
